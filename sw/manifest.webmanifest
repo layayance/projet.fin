@@ -1,0 +1,21 @@
+{
+  "name": "Fidelis",
+  "short_name": "Fidelis",
+  "start_url": "/html/begin.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/img/72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/assets/img/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
