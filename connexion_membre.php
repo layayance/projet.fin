@@ -17,15 +17,14 @@ require_once 'include/connexion.php';
 
 // Vérification des champs du formulaire
 // On vérifie que tous les champs existe et ne sont pas vides
- if (isset($_POST['nom dutilisateur'], $_POST['email'], $_POST['mdp'])
+ if (isset($_POST['submit'],)
     && !empty($_POST['nom dutilisateur'])
     && !empty($_POST['email'])
     && !empty($_POST['mdp'])
  )
     
     
- {
-     
+ {  
     var_dump($_POST);
     // Nettoyage des données reçues
     // Grâce à array_map(), nous utilisons la fonction strip_tags() sur toutes les valeurs de notre superglobales $_POST
